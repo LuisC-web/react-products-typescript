@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import DispayError from "./DispayError";
 import { addProduct, putProductId } from "../services/ProductServices";
-import { typeProduct, typeProductAPi } from "../types";
+import {  typeProductAPi } from "../types";
 const availabilityOptions = [
   { name: "Disponible", value: true },
   { name: "No Disponible", value: false },

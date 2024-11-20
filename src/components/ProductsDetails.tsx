@@ -1,4 +1,4 @@
-import { redirect, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { typeProductAPi } from "../types";
 import { formatCurrency } from "../utils/utils";
 import { deleteProductId, patchProductId } from "../services/ProductServices";
